@@ -44,6 +44,7 @@ p {
 }
 
 .header div ul {
+    /* Hide the styling for the list to make the menu */
     list-style-type: none;
 }
 
@@ -54,6 +55,7 @@ p {
 
 /* Hero styling */
 .hero {
+    /* Display the image here to stretch to the very top of the screen (Hidden under the top menu */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -64,6 +66,7 @@ p {
 
 /* Main content styling */
 .content {
+    /* Fill up 75% of the screen */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -89,6 +92,7 @@ p {
 
 /* Side content styling */
 .benefits {
+    /* Display the benefits to the right side of the screen filling up 20% of the screen */
     margin-right: 20px;
     padding: 20px;
     clear: both;
